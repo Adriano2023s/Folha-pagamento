@@ -1,28 +1,33 @@
 ﻿namespace FolhaPagamento
 {
-    internal class Salario
+    internal class Funcionario
     {
         public string NomeFuncionario;
-        public double SalarioBruto;
+        public double Salario;
         public double Imposto;
 
-        public Salario(string nomeFuncionario, double salarioBruto, double imposto)
+        public Funcionario(string nomeFuncionario, double salario, double imposto)
         {
             NomeFuncionario = nomeFuncionario;
-            SalarioBruto= salarioBruto;
+            Salario = salario;
             Imposto = imposto;
+        }
+
+        public Funcionario()
+        {
+
         }
 
         public double CalculaSalarioLiquido()
         {
-            double salarioLiquido = SalarioBruto - Imposto;
+            double salarioLiquido = Salario - Imposto;
             return salarioLiquido;
         }
 
         public void AumentarSalario(double percentual)
         {
-            double reajuste = SalarioBruto * (percentual / 100);
-            SalarioBruto += reajuste;
+            double reajuste = Salario * (percentual / 100);
+            Salario += reajuste;
         }
     }
 }

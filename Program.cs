@@ -6,7 +6,7 @@ namespace FolhaPagamento
     {
         static void Main(string[] args)
         {
-            Salario s = new Salario("Adriano", 1000, 10);
+            Funcionario s = new Funcionario("Adriano", 1000, 10);
 
             Console.WriteLine($"O funcionário: {s.NomeFuncionario}.");
             Console.WriteLine($"Salário antigo é de: R${s.SalarioBruto}");
