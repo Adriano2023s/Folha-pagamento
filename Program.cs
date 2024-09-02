@@ -6,16 +6,26 @@ namespace FolhaPagamento
     {
         static void Main(string[] args)
         {
-            Funcionario s = new Funcionario("Adriano", 1000, 10);
+            Funcionario f = new Funcionario();
 
-            Console.WriteLine($"O funcionário: {s.NomeFuncionario}.");
-            Console.WriteLine($"Salário antigo é de: R${s.SalarioBruto}");
+            Console.WriteLine("Digite o nome do funcionário \n");
+            f.NomeFuncionario = Console.ReadLine();
 
-            double salarioLiquido = s.CalculaSalarioLiquido();
-            Console.WriteLine($"O salário líquido atual é de: R${salarioLiquido}");
+            Console.WriteLine($"Digite o salário atual que o funcionario: {f.NomeFuncionario} recebe");
+            f.Salario = double.Parse(Console.ReadLine());
 
-            s.AumentarSalario(1000);
-            Console.WriteLine($"O salário atual é de: R${s.SalarioBruto}");
-        }
+            Console.WriteLine($"Qual o imposto que será descontado do salário: R${f.Salario}, do funcionário: {f.NomeFuncionario}");
+            f.Imposto = double.Parse(Console.ReadLine());
+
+            Console.WriteLine($"O funcionário: {f.NomeFuncionario}, recebe como salário: R${f.Salario}, e é descontado de imposto: {f.Imposto}");
+
+            Console.WriteLine($"Qual o percentual de almento para o funcionário: {f.NomeFuncionario}");
+            double aumento = double.Parse(Console.ReadLine());
+            f.AumentarSalario(aumento);
+
+            double salarioLiquido = f.CalculaSalarioLiquido();
+
+            Console.WriteLine($"O salário atual do funcionário é: {f.NomeFuncionario}, é de: R${salarioLiquido}");
+            }
     }
 }

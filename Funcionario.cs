@@ -20,14 +20,14 @@
 
         public double CalculaSalarioLiquido()
         {
-            double salarioLiquido = Salario - Imposto;
+            double salarioLiquido= Salario - Imposto;
             return salarioLiquido;
         }
 
         public void AumentarSalario(double percentual)
         {
             double reajuste = Salario * (percentual / 100);
-            Salario += reajuste;
+            Salario = Salario + reajuste;
         }
     }
 }
