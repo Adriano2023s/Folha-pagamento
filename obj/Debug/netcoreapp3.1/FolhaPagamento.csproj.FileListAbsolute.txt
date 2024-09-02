@@ -1,0 +1,14 @@
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\obj\Debug\netcoreapp3.1\FolhaPagamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\obj\Debug\netcoreapp3.1\FolhaPagamento.AssemblyInfoInputs.cache
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\obj\Debug\netcoreapp3.1\FolhaPagamento.AssemblyInfo.cs
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\obj\Debug\netcoreapp3.1\FolhaPagamento.csproj.CoreCompileInputs.cache
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\obj\Debug\netcoreapp3.1\FolhaPagamento.sourcelink.json
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\bin\Debug\netcoreapp3.1\FolhaPagamento.exe
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\bin\Debug\netcoreapp3.1\FolhaPagamento.deps.json
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\bin\Debug\netcoreapp3.1\FolhaPagamento.runtimeconfig.json
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\bin\Debug\netcoreapp3.1\FolhaPagamento.runtimeconfig.dev.json
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\bin\Debug\netcoreapp3.1\FolhaPagamento.dll
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\bin\Debug\netcoreapp3.1\FolhaPagamento.pdb
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\obj\Debug\netcoreapp3.1\FolhaPagamento.dll
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\obj\Debug\netcoreapp3.1\FolhaPagamento.pdb
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\FolhaPagamento\FolhaPagamento\obj\Debug\netcoreapp3.1\FolhaPagamento.genruntimeconfig.cache

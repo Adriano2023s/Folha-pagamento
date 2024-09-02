@@ -6,7 +6,7 @@ namespace FolhaPagamento
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
