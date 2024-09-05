@@ -2,45 +2,9 @@
 {
     internal class Funcionario
     {
-        private string _NomeFuncionario;
-        private double _Salario;
-        private double _Imposto;
-
-        public string NomeFuncionario
-        {
-            get
-            {
-                return _NomeFuncionario;
-            }
-            set
-            {
-                _NomeFuncionario = value;
-            }
-        }
-
-        public double Salario
-        {
-            get
-            {
-                return _Salario;
-            }
-            set
-            {
-                _Salario = value;
-            }
-        }
-
-        public double Imposto
-        {
-            get
-            {
-                return _Imposto;
-            }
-            set
-            {
-                _Imposto = value;
-            }
-        }
+        public string NomeFuncionario { get; set; }
+        public double Salario { get; set; }
+        public double Imposto { get; set; }
 
         public Funcionario()
         {
