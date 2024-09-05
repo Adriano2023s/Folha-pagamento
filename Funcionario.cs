@@ -2,20 +2,56 @@
 {
     internal class Funcionario
     {
-        public string NomeFuncionario;
-        public double Salario;
-        public double Imposto;
+        private string _NomeFuncionario;
+        private double _Salario;
+        private double _Imposto;
 
-        public Funcionario(string nomeFuncionario, double salario, double imposto)
+        public string NomeFuncionario
         {
-            NomeFuncionario = nomeFuncionario;
-            Salario = salario;
-            Imposto = imposto;
+            get
+            {
+                return _NomeFuncionario;
+            }
+            set
+            {
+                _NomeFuncionario = value;
+            }
+        }
+
+        public double Salario
+        {
+            get
+            {
+                return _Salario;
+            }
+            set
+            {
+                _Salario = value;
+            }
+        }
+
+        public double Imposto
+        {
+            get
+            {
+                return _Imposto;
+            }
+            set
+            {
+                _Imposto = value;
+            }
         }
 
         public Funcionario()
         {
 
+        }
+        
+        public Funcionario(string nomeFuncionario, double salario, double imposto)
+        {
+            NomeFuncionario = nomeFuncionario;
+            Salario = salario;
+            Imposto = imposto;
         }
 
         public double CalculaSalarioLiquido()
